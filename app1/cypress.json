@@ -1,0 +1,18 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "viewportWidth": 2880,
+  "viewportHeight":  1800,
+  "defaultCommandTimeout": 8000,
+  "component": {
+    "testFiles": "**/*.test.{js,ts,jsx,tsx}",
+    "componentFolder": "src"
+  },
+  "chromeWebSecurity": false,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/results/test-output-[hash].xml",
+    "toConsole": true,
+    "attachments": true
+  },
+  "video": false
+}
