@@ -162,6 +162,7 @@
   },
   "settings": {
     "import/resolver": {
+      "typescript": {}, // this loads <rootdir>/tsconfig.json to eslint https://github.com/import-js/eslint-plugin-import/issues/1485
       "node": {
         "extensions": [
           ".js",

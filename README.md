@@ -1,3 +1,5 @@
+### `If you find this repo / template useful all I ask is you please star it ⭐`
+
 # Create React App + Webpack 5 + Module Federation + Tailwind 2 + TypeScript
 
 Slightly opinionated React boilerplate using Create React App with React 17, Webpack 5, Tailwind 2, Module Federation, and TypeScript.
@@ -5,11 +7,11 @@ Slightly opinionated React boilerplate using Create React App with React 17, Web
 ## Prerequisites
 
 * Node 14.0.0 or later version
-* Yarn classic 1.22.5 or 2.x.x prefered
+* Yarn classic 1.22.5 or 2.x.x preferred
 
 ## Webpack 5 / Module Federation
 
-To Support Webpack 5 [Create React App alpha](https://github.com/facebook/create-react-app/discussions/11278) has been used, this will be updated as soon as new versions are available.
+To Support Webpack 5 [Create React App 5](https://github.com/facebook/create-react-app/releases/tag/v5.0.0) has been used, this will be updated as soon as new versions are available.
 
 The template contains a basic Module Federation example, there are two Apps App1 and App2.
 
@@ -55,7 +57,7 @@ The build is minified and the filenames include the hashes.
 
 ## Summary
 
-This template Uses CRA + [Create React App Configuration Override - CRACO](https://github.com/gsoft-inc/craco) to customise CRA (For example we changed the PostCSS config to support Tailwind), which means we don't need to reinvent the wheel. 
+This template Uses CRA + [Create React App Configuration Override - CRACO](https://github.com/gsoft-inc/craco) to customise CRA (For example we changed the webpack config to support Module Federation), which means we don't need to reinvent the wheel. 
 If we run into any issues we can still eject, and pull out what we need.
 
 ## src Folder / File Structure
@@ -133,7 +135,7 @@ See [cypress\integration\Home\home.spec.js](\app1\cypress\integration\Home\home.
 TypeScript is preferred to make it easier to refactor.
 
 ### CRACO
-[Create React App Configuration Override - CRACO](https://github.com/gsoft-inc/craco) has been used to customise CRA to allow us to configure our own eslint rules, and add PostCSS plugins for Tailwind 2.
+[Create React App Configuration Override - CRACO](https://github.com/gsoft-inc/craco) has been used to customise CRA to allow us to configure our own eslint rules, and to support Module Federation.
 
 ### ESLint
 [Airbnb's ESlint rules](https://github.com/airbnb/javascript) with TypeScript support. The only real change is double quotes for imports, this is easy to change if this isn't to your taste.
