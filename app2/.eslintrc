@@ -105,6 +105,13 @@
         ]
       }
     ],
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": ["function-declaration", "arrow-function"],
+        "unnamedComponents": "arrow-function"
+      }
+    ],
     "react/jsx-indent": [
       "error",
       4

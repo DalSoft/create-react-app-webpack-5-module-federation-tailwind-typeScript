@@ -60,6 +60,13 @@
         "SwitchCase": 1
       }
     ],
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": ["function-declaration", "arrow-function"],
+        "unnamedComponents": "arrow-function"
+      }
+    ],
     "@typescript-eslint/indent": [
       "error",
       4,

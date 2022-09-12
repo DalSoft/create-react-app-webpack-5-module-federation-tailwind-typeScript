@@ -1,8 +1,8 @@
 ### `If you find this repo / template useful all I ask is you please star it ⭐`
 
-# Create React App + Webpack 5 + Module Federation + Tailwind 2 + TypeScript
+# Create React App + Webpack 5 + Module Federation + Tailwind 3 + TypeScript
 
-Slightly opinionated React boilerplate using Create React App with React 17, Webpack 5, Tailwind 2, Module Federation, and TypeScript.
+Slightly opinionated React boilerplate using Create React App with React 18, Webpack 5, Tailwind 3, Module Federation, and TypeScript.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ Installs all dependencies for the project.
 
 Runs the app in development mode.
 `app1`: Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-`app2`: Open [http://localhost:30003(http://localhost:3002) to view it in the browser.
+`app2`: Open [http://localhost:3002](http://localhost:3002) to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
@@ -98,7 +98,8 @@ app2/
 The `Button` component itself lives in the `Components/Button` folder, the file is named `index.tsx` so that it is the default module for that folder. 
 
 In index.tsx we use a named export, we do not use a default export as we want the naming of our `imports` to be consistent.    
-![gif.gif](https://miro.medium.com/max/480/1*DV9TTNn2JZJKDyCESmElvQ.gif) (again not enforced if this is not to your taste)
+![gif.gif](https://miro.medium.com/max/480/1*DV9TTNn2JZJKDyCESmElvQ.gif) 
+(again not enforced if this is not to your taste)
 
 By following this simple convention it makes the `import` resolution easy to understand, for example for our `Button` component: 
 ```javascript
@@ -146,12 +147,12 @@ Set up with basic rules mainly formatting.
 ### classnames
 [classnames](https://github.com/JedWatson/classnames#readme) makes it easy and readable to conditionally join classNames together.
 
-### Tailwind 2
-Tailwind 2 has been added with a very basic configuration you will most certainly need to configure for your own needs. 
+### Tailwind 3
+Tailwind 3 has been added with a very basic configuration you will most certainly need to configure for your own needs. 
 [JIT Mode](https://tailwindcss.com/docs/just-in-time-mode) has been enabled because it's awesome, see [\Pages\Home\index.tsx](\app1\src\Pages\Home\index.tsx) for an example.
 
-### React Routing
-Because you need routing. See src/App.tsx for an example. 
+### React Router 6
+Because you need routing. See [App.tsx](/app1/src/App.tsx) for an example. 
 
 ### Credits
 CRACO Module Federation plugin taken from https://github.com/hasanayan/craco-module-federation (MIT License).
