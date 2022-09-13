@@ -9,7 +9,7 @@
             "Hooks/*": ["src/Hooks/*"],
             "Pages/*": ["src/Pages/*"],
             "Styles/*": ["src/Styles/*"],
-            "Utils/*": ["src/Utils/*"],
+            "Utils/*": ["src/Utils/*"]
         }
     }
 }
