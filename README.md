@@ -6,7 +6,7 @@ Slightly opinionated React boilerplate using Create React App with React 18, Web
 
 ## Prerequisites
 
-* Node 14.0.0 or later version
+* Node 18.x.x or later version
 * Yarn classic 1.22.5 or 2.x.x preferred
 
 ## Webpack 5 / Module Federation
@@ -24,6 +24,12 @@ To get a better understanding of Module Federation read [Webpack 5 Module Federa
 See the official [Module Federation](https://github.com/module-federation/module-federation-examples) repo for further code examples.
 
 Webpack Module Federation [documentation](https://webpack.js.org/concepts/module-federation/).
+
+## Using this template
+
+You can download or clone this repo as you normally would, or better still use the [GitHub CLI](https://cli.github.com/) to create a repo using this template (with a clean history).
+
+### `gh repo create myrepo --template Dalsoft/create-react-app-webpack-5-module-federation-tailwind-typeScript`
 
 ## Getting Started
 
