@@ -1,8 +1,9 @@
+const { CracoAliasPlugin} = require('react-app-alias');
 module.exports = {
     plugins: [{
             plugin: require("./craco-plugins/module-federation")
         },
-        {   plugin: require("craco-alias"),
+        {   plugin: CracoAliasPlugin,
             options: {
                 source: "tsconfig",
                 // baseUrl SHOULD be specified

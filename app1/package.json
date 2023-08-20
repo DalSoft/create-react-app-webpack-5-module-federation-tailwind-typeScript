@@ -3,21 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
-    "@types/jest": "^29.0.1",
-    "@types/node": "^18.7.17",
-    "@types/react": "^18.0.19",
-    "@types/react-dom": "^18.0.6",
-    "classnames": "^2.3.1",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.5.0",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.0",
+    "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
-    "tailwindcss": "^3.1.8",
-    "typescript": "^4.6.0",
-    "web-vitals": "^3.0.1"
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6",
+    "web-vitals": "^3.4.0"
   },
   "scripts": {
     "start": "craco start",
@@ -39,15 +39,15 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^6.4.5",
-    "craco-alias": "^3.0.1",
-    "cypress": "^10.7.0",
+    "@craco/craco": "^7.1.0",
+    "react-app-alias": "^2.2.2",
+    "cypress": "^12.17.4",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-import-resolver-typescript": "^3.5.1",
-    "eslint-plugin-cypress": "^2.11.1",
-    "stylelint": "^14.11.0",
-    "stylelint-formatter-pretty": "^3.1.0",
-    "stylelint-webpack-plugin": "^3.3.0"
+    "eslint-plugin-cypress": "^2.14.0",
+    "stylelint": "^15.10.3",
+    "stylelint-formatter-pretty": "^3.2.1",
+    "stylelint-webpack-plugin": "^4.1.1"
   }
 }
