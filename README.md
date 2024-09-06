@@ -12,9 +12,9 @@ Slightly opinionated React boilerplate using Create React App with React 18, Web
 
 ## Using this template
 
-(Create your new repository now using this template by clicking here)[https://github.com/DalSoft/create-react-app-webpack-5-module-federation-tailwind-typeScript/generate]
+#### [Create your new repository using this template by clicking here](https://github.com/DalSoft/create-react-app-webpack-5-module-federation-tailwind-typeScript/generate) 🚀
 
-or better still use the [GitHub CLI](https://cli.github.com/) to create a repo using this template (with a clean history).
+or use the [GitHub CLI](https://cli.github.com/) to create a repo using this template (with a clean history).
 
 ### `gh repo create myrepo --template Dalsoft/create-react-app-webpack-5-module-federation-tailwind-typeScript`
 
