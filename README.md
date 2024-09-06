@@ -1,4 +1,5 @@
 ### `If you find this repo / template useful all I ask is you please star it ⭐`
+> ### Do you or the company you work for benefit from the tools I build? <br /> If so please consider [Becoming a Sponsor](https://github.com/sponsors/dalsoft) it would be greatly appreciated ❤️ 
 
 # Create React App + Webpack 5 + Module Federation + Tailwind 3 + TypeScript
 
@@ -8,6 +9,14 @@ Slightly opinionated React boilerplate using Create React App with React 18, Web
 
 * Node 18.x.x or later version
 * Yarn classic 1.22.5 or 2.x.x preferred
+
+## Using this template
+
+(Create your new repository now using this template by clicking here)[https://github.com/DalSoft/create-react-app-webpack-5-module-federation-tailwind-typeScript/generate]
+
+or better still use the [GitHub CLI](https://cli.github.com/) to create a repo using this template (with a clean history).
+
+### `gh repo create myrepo --template Dalsoft/create-react-app-webpack-5-module-federation-tailwind-typeScript`
 
 ## Webpack 5 / Module Federation
 
@@ -24,12 +33,6 @@ To get a better understanding of Module Federation read [Webpack 5 Module Federa
 See the official [Module Federation](https://github.com/module-federation/module-federation-examples) repo for further code examples.
 
 Webpack Module Federation [documentation](https://webpack.js.org/concepts/module-federation/).
-
-## Using this template
-
-You can download or clone this repo as you normally would, or better still use the [GitHub CLI](https://cli.github.com/) to create a repo using this template (with a clean history).
-
-### `gh repo create myrepo --template Dalsoft/create-react-app-webpack-5-module-federation-tailwind-typeScript`
 
 ## Getting Started
 
